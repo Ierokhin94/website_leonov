@@ -1,0 +1,147 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/user.css');
+
+.navbar-container{
+    background-color: rgb(43, 43, 43);
+    
+}
+
+
+.navbar-link{
+    color: rgb(180, 180, 180);
+}
+
+.navbar-link:hover{
+    color: rgb(180, 180, 180);
+}
+
+
+.list-form {
+    height: 100vh;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .list-form {
+        width: max-content;
+        height: max-content;
+        overflow: scroll;
+    }
+
+    .list-form .container-fluid {
+        height: max-content!important;
+    }
+}
+
+
+.gg-user {
+    
+    display: block;
+    transform: scale(var(--ggs,1));
+    box-sizing: border-box;
+    width: 12px;
+    height: 18px
+}
+.gg-user::after,
+.gg-user::before {
+    content: "";
+    margin-top: 2px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid
+}
+.gg-user::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    top: 0;
+    left: 2px
+}
+.gg-user::after {
+    width: 12px;
+    height: 9px;
+    border-bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    top: 9px
+}
+
+.gg-user-list {
+    display: block;
+    transform: scale(var(--ggs,1));
+    box-sizing: border-box;
+    width: 20px;
+    height: 18px;
+    background:
+      linear-gradient(
+        to left,
+        currentColor 8px,
+        transparent 0)
+        no-repeat 14px 4px/6px 2px,
+      linear-gradient(
+        to left,
+        currentColor 8px,
+        transparent 0)
+        no-repeat 14px 8px/6px 2px,
+      linear-gradient(
+        to left,
+        currentColor 8px,
+        transparent 0)
+        no-repeat 14px 12px/6px 2px
+}
+.gg-user-list::after,
+.gg-user-list::before {
+    content: "";
+    margin-top: 2px;
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid
+}
+.gg-user-list::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    top: 0;
+    left: 2px
+}
+.gg-user-list::after {
+    width: 12px;
+    height: 9px;
+    border-bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    top: 9px
+}
+
+.gg-push-chevron-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 100px
+}
+.gg-push-chevron-right::after,
+.gg-push-chevron-right::before {
+    content: "";
+    display: block;
+    margin-top: 5px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 2px;
+    height: 14px;
+    border-right: 2px solid;
+    top: 2px;
+    right: 8px
+}
+.gg-push-chevron-right::after {
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid;
+    transform: rotate(-45deg);
+    right: 14px;
+    top: 4px
+}

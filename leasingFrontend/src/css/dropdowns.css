@@ -1,0 +1,43 @@
+.client-dropdown {
+
+    border-radius: 4px;
+    background: #fff;
+
+    overflow-y: auto;
+    width: 100%; /* Ширина 100% */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-option {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc; /* Добавляем разделительные линии между элементами */
+  }
+  
+  .client-option:last-child {
+    border-bottom: none; /* Убираем разделительную линию для последнего элемента */
+  }
+
+
+  .item-dropdown {
+ 
+    border-radius: 4px;
+    background: #fff;
+
+    overflow-y: auto;
+    width: 100%; /* Ширина 100% */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-option {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc; /* Добавляем разделительные линии между элементами */
+  }
+  
+  .item-option:last-child {
+    border-bottom: none; /* Убираем разделительную линию для последнего элемента */
+  }
+  .item-dropdown.closed .item-option:last-child {
+    border-bottom: 1px solid transparent;
+  }

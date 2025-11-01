@@ -1,0 +1,37 @@
+.container-client-form{
+    margin: 20px;
+    border: 1px solid #ccc;
+
+    padding: 20px; 
+
+    border-radius: 10px;
+    margin-bottom: 75px;
+}
+
+
+.form-control[type="date"]::-webkit-calendar-picker-indicator {
+
+color: #212529; /* Замените на желаемый цвет значка */
+}
+.customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: 100%;
+}
+.error {
+    border: 2px solid rgb(255, 183, 183);
+  }
+.red-form {
+    border-color: rgb(255, 183, 183);
+    /* Другие стили для подсветки в красный цвет */
+  }
+
+.error-message {
+    color: red; /* Измените на нужный вам цвет текста ошибки */
+    font-size: 14px; /* Измените размер шрифта, если необходимо */
+    margin-top: 5px; /* Измените отступ сверху, если необходимо */
+  }
+.centered-modal-title {
+    text-align: center;
+  }
